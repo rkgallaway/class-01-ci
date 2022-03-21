@@ -1,0 +1,27 @@
+{
+  "name": "class-01-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkgallaway/class-01-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkgallaway/class-01-ci/issues"
+  },
+  "homepage": "https://github.com/rkgallaway/class-01-ci#readme"
+}
